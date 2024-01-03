@@ -5,45 +5,391 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Bootstrap Card Layout Activity</title>
+    <title>Naturalization Quiz Practice</title>
 
     <!-- Import Bootstrap CDN -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/style.css">
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-light bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="./index.html">Navbar</a>
+                <a class="navbar-brand" href="./index.html">Reset</a>
                 <p id="timer"> </p>
             </div>
-
         </nav>
     </header>
-
+    
     <div class="container">
-        <div class="row align-items-start">
+        <!-- q1 -->
+        <div class="row align-items-start hidden" id="question1">
             <div class="col">
-                <ul id="questionslist">
-                    <li id="questone">What color are bananas?</li>
-                    <li id="questtwo">What color is the sea?</li>
-                    <li id="questthree">Roses are ____ violets are blue</li>
-                    <li id="questfour">What is the most common eye color?</li>
-                </ul>
+                <h3 id="questionaire1">1 ) What is the supreme law of the land? </h3>
+                <ol id="answerslist1">
+                    <li data-correct="false">The Supreme Court</li>
+                    <li data-correct="false">The Vice President</li>
+                    <li data-correct="false">The Army</li>
+                    <li data-correct="true">The Constitution</li>
+                </ol>
             </div>
-
-            <div class="container">
-                <div class="row align-items-start">
+        </div>
+        <!-- q2 -->
+        <div class="row align-items-start hidden" id="question2">
+            <div class="col">
+                <h3 id="questionaire2">2 ) The Constitution does what? </h3>
+                <ol id="answerslist2">
+                    <li data-correct="true">Sets up and defines the government & protects the basic rights of Americans</li>
+                    <li data-correct="false">brown</li>
+                    <li data-correct="true">Sets protects the human rights</li>
+                    <li data-correct="false">yellow</li>
+                    </ul>
+            </div>
+        </div>
+        <!-- q3 -->
+        <div class="row align-items-start hidden" id="question3">
+            <div class="col">
+                <h3 id="questionaire3">3 ) The idea of self-government is in the first three words of the Constitution. What are these words?</h3>
+                <ol id="answerslist3">
+                    <li data-correct="false">blue</li>
+                    <li data-correct="true">We the People</li>
+                    <li data-correct="false">brown</li>
+                    <li data-correct="false">yellow</li>
+                    </ul>
+            </div>
+        </div>
+        <!-- q4 -->
+        <div class="row align-items-start hidden" id="question4">
+            <div class="col">
+                <h3 id="questionaire4">4 ) What is an amendment? </h3>
+                <ol id="answerslist4">
+                    <li data-correct="false">blue</li>
+                    <li data-correct="false">red</li>
+                    <li data-correct="true">An addtion or change to the Constution</li>
+                    <li data-correct="false">yellow</li>
+                    </ul>
+            </div>
+        </div>
+        <!-- q5 -->
+        <div class="row align-items-start hidden" id="question5">
+            <div class="col">
+                <h3 id="questionaire5">5 ) What do we call the first ten amendments to the Constitution? </h3>
+                <ol id="answerslist5">
+                    <li data-correct="false">blue</li>
+                    <li data-correct="true">The Bill of Rights</li>
+                    <li data-correct="false">brown</li>
+                    <li data-correct="false">yellow</li>
+                    </ul>
+            </div>
+        </div>
+        <!-- q6 -->
+        <div class="row align-items-start hidden" id="question6">
                     <div class="col">
-                        <ol id="answerslist">
-                            <li id="secondanswer">blue</li>
-                            <li>red</li>
-                            <li>brown</li>
-                            <li id="firstanswer">yellow</li>
-                        </ul>
+                        <h3 id="questionaire5">6 ) What do we call the first ten amendments to the Constitution? </h3>
+                        <ol id="answerslist6">
+                            <li data-correct="false">blue</li>
+                            <li data-correct="true">The Bill of Rights</li>
+                            <li data-correct="false">brown</li>
+                            <li data-correct="false">yellow</li>
+                            </ul>
                     </div>
-                    <script src="./assets/script.js"></script>
+        </div>
+        <!-- q7 -->
+        <div class="row align-items-start hidden" id="question7">
+            <div class="col">
+                <h3 id="questionaire5"> What do we call the first ten amendments to the Constitution? </h3>
+                <ol id="answerslist5">
+                    <li data-correct="false">blue</li>
+                    <li data-correct="true">The Bill of Rights</li>
+                    <li data-correct="false">brown</li>
+                    <li data-correct="false">yellow</li>
+                    </ul>
+            </div>
+        </div>
+        <!-- q8 -->
+        <div class="row align-items-start hidden" id="question8">
+            <div class="col">
+                <h3 id="questionaire5"> What do we call the first ten amendments to the Constitution? </h3>
+                <ol id="answerslist5">
+                    <li data-correct="false">blue</li>
+                    <li data-correct="true">The Bill of Rights</li>
+                    <li data-correct="false">brown</li>
+                    <li data-correct="false">yellow</li>
+                    </ul>
+            </div>
+        </div>
+        <!-- q9 -->
+        <div class="row align-items-start hidden" id="question9">
+                    <div class="col">
+                        <h3 id="questionaire5"> What do we call the first ten amendments to the Constitution? </h3>
+                        <ol id="answerslist5">
+                            <li data-correct="false">blue</li>
+                            <li data-correct="true">The Bill of Rights</li>
+                            <li data-correct="false">brown</li>
+                            <li data-correct="false">yellow</li>
+                            </ul>
+                    </div>
+        </div>
+        <!-- q10 -->
+        <div class="row align-items-start hidden" id="question10">
+            <div class="col">
+                <h3 id="questionaire5"> What do we call the first ten amendments to the Constitution? </h3>
+                <ol id="answerslist5">
+                    <li data-correct="false">blue</li>
+                    <li data-correct="true">The Bill of Rights</li>
+                    <li data-correct="false">brown</li>
+                    <li data-correct="false">yellow</li>
+                    </ul>
+            </div>
+        </div>
+        <!-- q11 -->
+        <div class="row align-items-start hidden" id="question11">
+                    <div class="col">
+                        <h3 id="questionaire5"> What do we call the first ten amendments to the Constitution? </h3>
+                        <ol id="answerslist5">
+                            <li data-correct="false">blue</li>
+                            <li data-correct="true">The Bill of Rights</li>
+                            <li data-correct="false">brown</li>
+                            <li data-correct="false">yellow</li>
+                            </ul>
+                    </div>
+        </div>
+        <!-- q12 -->
+        <div class="row align-items-start hidden" id="question12">
+            <div class="col">
+                <h3 id="questionaire5"> What do we call the first ten amendments to the Constitution? </h3>
+                <ol id="answerslist5">
+                    <li data-correct="false">blue</li>
+                    <li data-correct="true">The Bill of Rights</li>
+                    <li data-correct="false">brown</li>
+                    <li data-correct="false">yellow</li>
+                    </ul>
+            </div>
+        </div>
+        <!-- q13 -->
+        <div class="row align-items-start hidden" id="question13">
+                    <div class="col">
+                        <h3 id="questionaire5"> What do we call the first ten amendments to the Constitution? </h3>
+                        <ol id="answerslist5">
+                            <li data-correct="false">blue</li>
+                            <li data-correct="true">The Bill of Rights</li>
+                            <li data-correct="false">brown</li>
+                            <li data-correct="false">yellow</li>
+                            </ul>
+                    </div>
+        </div>
+        <!-- q14 -->
+        <div class="row align-items-start hidden" id="question14">
+            <div class="col">
+                <h3 id="questionaire5"> What do we call the first ten amendments to the Constitution? </h3>
+                <ol id="answerslist5">
+                    <li data-correct="false">blue</li>
+                    <li data-correct="true">The Bill of Rights</li>
+                    <li data-correct="false">brown</li>
+                    <li data-correct="false">yellow</li>
+                    </ul>
+            </div>
+        </div>
+        <!-- q15 -->
+        <div class="row align-items-start hidden" id="question15">
+                    <div class="col">
+                        <h3 id="questionaire5"> What do we call the first ten amendments to the Constitution? </h3>
+                        <ol id="answerslist5">
+                            <li data-correct="false">blue</li>
+                            <li data-correct="true">The Bill of Rights</li>
+                            <li data-correct="false">brown</li>
+                            <li data-correct="false">yellow</li>
+                            </ul>
+                    </div>
+        </div>
+        <!-- q16 -->
+        <div class="row align-items-start hidden" id="question16">
+            <div class="col">
+                <h3 id="questionaire5"> What do we call the first ten amendments to the Constitution? </h3>
+                <ol id="answerslist5">
+                    <li data-correct="false">blue</li>
+                    <li data-correct="true">The Bill of Rights</li>
+                    <li data-correct="false">brown</li>
+                    <li data-correct="false">yellow</li>
+                    </ul>
+            </div>
+        </div>
+        <!-- q17 -->
+        <div class="row align-items-start hidden" id="question17">
+                    <div class="col">
+                        <h3 id="questionaire5"> What do we call the first ten amendments to the Constitution? </h3>
+                        <ol id="answerslist5">
+                            <li data-correct="false">blue</li>
+                            <li data-correct="true">The Bill of Rights</li>
+                            <li data-correct="false">brown</li>
+                            <li data-correct="false">yellow</li>
+                            </ul>
+                    </div>
+        </div>
+        <!-- q18 -->
+        <div class="row align-items-start hidden" id="question18">
+            <div class="col">
+                <h3 id="questionaire5"> What do we call the first ten amendments to the Constitution? </h3>
+                <ol id="answerslist5">
+                    <li data-correct="false">blue</li>
+                    <li data-correct="true">The Bill of Rights</li>
+                    <li data-correct="false">brown</li>
+                    <li data-correct="false">yellow</li>
+                    </ul>
+            </div>
+        </div>
+        <!-- q19 -->
+        <div class="row align-items-start hidden" id="question19">
+                    <div class="col">
+                        <h3 id="questionaire5"> What do we call the first ten amendments to the Constitution? </h3>
+                        <ol id="answerslist5">
+                            <li data-correct="false">blue</li>
+                            <li data-correct="true">The Bill of Rights</li>
+                            <li data-correct="false">brown</li>
+                            <li data-correct="false">yellow</li>
+                            </ul>
+                    </div>
+        </div>
+        <!-- q20 -->
+        <div class="row align-items-start hidden" id="question20">
+            <div class="col">
+                <h3 id="questionaire5"> What do we call the first ten amendments to the Constitution? </h3>
+                <ol id="answerslist5">
+                    <li data-correct="false">blue</li>
+                    <li data-correct="true">The Bill of Rights</li>
+                    <li data-correct="false">brown</li>
+                    <li data-correct="false">yellow</li>
+                    </ul>
+            </div>
+        </div>
+        <!-- q21 -->
+        <div class="row align-items-start hidden" id="question21">
+                    <div class="col">
+                        <h3 id="questionaire5"> What do we call the first ten amendments to the Constitution? </h3>
+                        <ol id="answerslist5">
+                            <li data-correct="false">blue</li>
+                            <li data-correct="true">The Bill of Rights</li>
+                            <li data-correct="false">brown</li>
+                            <li data-correct="false">yellow</li>
+                            </ul>
+                    </div>
+        </div>
+        <!-- q22 -->
+        <div class="row align-items-start hidden" id="question22">
+            <div class="col">
+                <h3 id="questionaire5"> What do we call the first ten amendments to the Constitution? </h3>
+                <ol id="answerslist5">
+                    <li data-correct="false">blue</li>
+                    <li data-correct="true">The Bill of Rights</li>
+                    <li data-correct="false">brown</li>
+                    <li data-correct="false">yellow</li>
+                    </ul>
+            </div>
+        </div>
+        <!-- q23 -->
+        <div class="row align-items-start hidden" id="question23">
+                    <div class="col">
+                        <h3 id="questionaire5"> What do we call the first ten amendments to the Constitution? </h3>
+                        <ol id="answerslist5">
+                            <li data-correct="false">blue</li>
+                            <li data-correct="true">The Bill of Rights</li>
+                            <li data-correct="false">brown</li>
+                            <li data-correct="false">yellow</li>
+                            </ul>
+                    </div>
+        </div>
+        <!-- q24 -->
+        <div class="row align-items-start hidden" id="question24">
+            <div class="col">
+                <h3 id="questionaire5"> What do we call the first ten amendments to the Constitution? </h3>
+                <ol id="answerslist5">
+                    <li data-correct="false">blue</li>
+                    <li data-correct="true">The Bill of Rights</li>
+                    <li data-correct="false">brown</li>
+                    <li data-correct="false">yellow</li>
+                    </ul>
+            </div>
+        </div>
+        <!-- q25 -->
+        <div class="row align-items-start hidden" id="question25">
+                    <div class="col">
+                        <h3 id="questionaire5"> What do we call the first ten amendments to the Constitution? </h3>
+                        <ol id="answerslist5">
+                            <li data-correct="false">blue</li>
+                            <li data-correct="true">The Bill of Rights</li>
+                            <li data-correct="false">brown</li>
+                            <li data-correct="false">yellow</li>
+                            </ul>
+                    </div>
+        </div>
+        <!-- q26 -->
+        <div class="row align-items-start hidden" id="question26">
+            <div class="col">
+                <h3 id="questionaire5"> What do we call the first ten amendments to the Constitution? </h3>
+                <ol id="answerslist5">
+                    <li data-correct="false">blue</li>
+                    <li data-correct="true">The Bill of Rights</li>
+                    <li data-correct="false">brown</li>
+                    <li data-correct="false">yellow</li>
+                    </ul>
+            </div>
+        </div>
+        <!-- q27 -->
+        <div class="row align-items-start hidden" id="question27">
+                    <div class="col">
+                        <h3 id="questionaire5"> What do we call the first ten amendments to the Constitution? </h3>
+                        <ol id="answerslist5">
+                            <li data-correct="false">blue</li>
+                            <li data-correct="true">The Bill of Rights</li>
+                            <li data-correct="false">brown</li>
+                            <li data-correct="false">yellow</li>
+                            </ul>
+                    </div>
+        </div>
+        <!-- q28 -->
+        <div class="row align-items-start hidden" id="question28">
+            <div class="col">
+                <h3 id="questionaire5"> What do we call the first ten amendments to the Constitution? </h3>
+                <ol id="answerslist5">
+                    <li data-correct="false">blue</li>
+                    <li data-correct="true">The Bill of Rights</li>
+                    <li data-correct="false">brown</li>
+                    <li data-correct="false">yellow</li>
+                    </ul>
+            </div>
+        </div>
+        <!-- q29 -->
+        <div class="row align-items-start hidden" id="question29">
+                    <div class="col">
+                        <h3 id="questionaire5"> What do we call the first ten amendments to the Constitution? </h3>
+                        <ol id="answerslist5">
+                            <li data-correct="false">blue</li>
+                            <li data-correct="true">The Bill of Rights</li>
+                            <li data-correct="false">brown</li>
+                            <li data-correct="false">yellow</li>
+                            </ul>
+                    </div>
+        </div>
+        <!-- q30 -->
+        <div class="row align-items-start hidden" id="question30">
+            <div class="col">
+                <h3 id="questionaire5"> What do we call the first ten amendments to the Constitution? </h3>
+                <ol id="answerslist5">
+                    <li data-correct="false">blue</li>
+                    <li data-correct="true">The Bill of Rights</li>
+                    <li data-correct="false">brown</li>
+                    <li data-correct="false">yellow</li>
+                    </ul>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- </div>
+    </div> -->
+    <script src="./assets/script.js"></script>
+    <!-- <script src="./assets/funtionalities.js"></script> -->
 </body>
 
 </html>
