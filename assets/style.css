@@ -1,4 +1,24 @@
 /* ? */
 .hidden {
     display: none;
+} 
+
+.container {
+    justify-content: center;
+    margin: 3rem auto;
+    width: 55%;
+    text-align: left;
+}
+h1 {
+    justify-content: center;
+}
+h3 {
+    margin: auto;
+    color: blue;
+}
+
+div > ul {
+    margin: 1rem auto;
+    text-align: justify;
+    width: 75%;
 }
